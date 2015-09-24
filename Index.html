@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<script src="js/angular.js"></script>
+<script src="js/angular-route.js"></script>
+<script type="text/javascript" src="modules/app.js" ></script>
+
+</script>
+<title>
+</title>
+
+</head>
+<body ng-app="albumsApp">
+<div data-ng-controller="albumController">
+   
+    <ul data-ng-repeat="album in albums">
+    <li>
+      Artist is "{{album.artist}}" and title is "{{album.title}}"
+
+    </li>
+  </ul>  
+<button data-ng-click="changeSorting()">Sort by artist</button>
+</br>
+</br>
+<button data-ng-click="changeSorting2()">Sort by album</button>
+</div>
+
+
+</body>
+</html>
