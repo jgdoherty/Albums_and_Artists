@@ -1,0 +1,21 @@
+{
+    "albums":[    
+      {
+      "artist": "Manic Street Preachers",
+      "title": "Send Away The Tigers"
+       },
+       {
+      "artist": "Nirvana",
+      "title": "Nevermind"
+       },
+       {
+      "artist": "Lana Del Rey",
+      "title": "Ultraviolence"    
+      },
+      {
+      "artist": "The Doors",
+      "title": "L.A. Woman"    
+      }
+      ]
+
+}
